@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link  rel="icon" href="./img/age-calculator-birthday-reminder-81-removebg-preview.png">
+    <title>Age calculator</title>
+</head>
+
+<body>
+
+
+    <section>
+        <div class="w-75 m-auto">
+            <div class="row g-0 h-100 justify-content-center align-items-center content rounded-2">
+                <div class="col-md-4">
+                    <h1 class="text-light">Welcome to <span>Age <br /> Calculator</span> app</h1>
+                </div>
+
+                <div class="col-md-6">
+                   <div>
+                        <div class="text-light mt-3">
+                            <label for="birthdayInput" class="mb-2 h5">Enter Your Birthday:</label>
+                            <div class="d-flex">
+                                <input type="date" class="form-control" id="birthdayInput" name="date" role="button">
+                                <button class="calcBtn" id="calcBtn">Calculate</button>
+                            </div>
+
+                            <div class="calDate">
+                                <div class="text-center calcItem"><span id="years">0</span><br/><span>Years</span></div>
+                                <div class="text-center calcItem"><span id="months">0</span><br/><span>Months</span></div>
+                                <div class="text-center calcItem"><span id="days">0</span><br/><span>Days</span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+<script src="main.js"></script>
+</body>
+
+</html>
